@@ -4,6 +4,7 @@ import java.time.LocalDate;
 public class Paciente {
     private int idPaciente;
     private String dni;
+    
     private String nombres;
     private String apellidos;
     private String sexo;
@@ -13,7 +14,7 @@ public class Paciente {
     public void setIdPaciente(int id) { this.idPaciente = id; }
     public String getDni() { return dni; }
     public void setDni(String dni) { this.dni = dni; }
-    public String getNombres() { return nombres; }
+    public String getNombres() { return nombres; }  
     public void setNombres(String nom) { this.nombres = nom; }
     public String getApellidos() { return apellidos; }
     public void setApellidos(String ape) { this.apellidos = ape; }
